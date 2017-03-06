@@ -7,9 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+#import "GCDAsyncSocket.h"
 @interface ViewController : NSViewController
-
+@property (strong) GCDAsyncSocket *socket;
+@property (readonly) NSMutableSet *connectedSockets;
+@property (strong) NSURL *url;
 
 @end
 
