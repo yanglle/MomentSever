@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>123.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>MomentSever.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,21 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>8834BB171E7D990100892600</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8834BB2C1E7D990200892600</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8834BB371E7D990200892600</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>885B50B11E684BAA00F0D4D3</key>
 		<dict>
 			<key>primary</key>

@@ -7,8 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@class HTTPServer;
+@interface AppDelegate : NSObject <NSApplicationDelegate>{
+   	HTTPServer *httpServer;
+}
 
 
 @end

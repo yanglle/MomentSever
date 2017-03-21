@@ -8,10 +8,16 @@
 
 #import <Cocoa/Cocoa.h>
 #import "GCDAsyncSocket.h"
+
 @interface ViewController : NSViewController
 @property (strong) GCDAsyncSocket *socket;
 @property (readonly) NSMutableSet *connectedSockets;
 @property (strong) NSURL *url;
-
+@property (unsafe_unretained) IBOutlet NSTextView *consoleTF;
+@property (nonatomic, retain) NSMutableData *receiveData;
+@property (weak) IBOutlet NSButton *startBtn;
+@property (weak) IBOutlet NSButton *readyBtn;
+@property (weak) IBOutlet NSButton *takePhotoBtn;
+@property (weak) IBOutlet NSButton *montageBtn;
 @end
 
