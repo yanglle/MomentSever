@@ -606,8 +606,8 @@
 					};
 					885B50B11E684BAA00F0D4D3 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = M75NETC7Y9;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = EM6L6FTE8B;
+						ProvisioningStyle = Manual;
 					};
 					885B50C71E684BAB00F0D4D3 = {
 						CreatedOnToolsVersion = 8.2;
@@ -1051,7 +1051,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = M75NETC7Y9;
+				DEVELOPMENT_TEAM = EM6L6FTE8B;
 				FRAMEWORK_SEARCH_PATHS = "\"$PODS_CONFIGURATION_BUILD_DIR/CocoaAsyncSocket\"";
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
 					"\"$PODS_CONFIGURATION_BUILD_DIR/CocoaAsyncSocket\"",
@@ -1063,6 +1063,8 @@
 				"PRELINK_LIBS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yishun.MomentSever;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7b6d8b26-3ebe-4764-b9e8-329b5ef11a2a";
+				PROVISIONING_PROFILE_SPECIFIER = BulletTimeDev;
 			};
 			name = Debug;
 		};
@@ -1074,7 +1076,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = M75NETC7Y9;
+				DEVELOPMENT_TEAM = EM6L6FTE8B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/CocoaAsyncSocket\"",
@@ -1085,6 +1087,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yishun.MomentSever;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7b6d8b26-3ebe-4764-b9e8-329b5ef11a2a";
+				PROVISIONING_PROFILE_SPECIFIER = BulletTimeDev;
 			};
 			name = Release;
 		};
